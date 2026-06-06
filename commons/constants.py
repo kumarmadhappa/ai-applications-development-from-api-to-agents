@@ -27,5 +27,9 @@ ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', '')
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models"
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
 
+# ZAI API configuration
+ZAI_ENDPOINT = "https://api.z.ai/api/paas/v4/chat/completions"
+ZAI_API_KEY = os.getenv('ZAI_API_KEY', '')
+
 # User Service API configuration
 USER_SERVICE_ENDPOINT = "http://localhost:8041"
