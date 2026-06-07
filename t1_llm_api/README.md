@@ -49,4 +49,12 @@ libraries we commonly use.
 
 On top of that, you can explore Grok, DeepSeek, QWEN, LLAMA, and other OpenAI-compatible models using the OpenAI client 😵‍💫
 
+
+Steps to Run the appexit
+1) All steps to create Virtual env  from project readme.md file
+2) Export the API Key
+3) python -m t1_llm_api.zai.chat.completions.zai_chat_completions_app
+4) See that you are connected to VPN 
+
+
 **Congratulations 🎉 It wasn't easy, but now you know that AI APIs are not magic — they are plain REST (with SSE for streaming)!**

@@ -23,7 +23,14 @@ async def start(stream: bool, client: AIClient) -> None:
     """
 
     conversation = Conversation()
-
+    print()
+    print()
+    print()
+    print("The class for AI client is - " + client.__class__.__name__)
+    print("Connected to AI Model - \""+ client._model_name + "\" with endpoint - \"" + client._endpoint + "\"" )
+    print("AI Client is " + ("streaming responses." if stream else "using synchronous responses.") )
+    
+    print("You can start chatting now!")
     print("Type your question or 'exit' to quit.")
     while True:
         user_input = input("User: ")

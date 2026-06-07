@@ -76,6 +76,8 @@ class CustomZaiAIClient(AIClient):
             "messages": messages_dicts
         }
 
+        print("Getting synchronous response:")
+
         # - Execute post request to AI API (use `requests`)
         response = requests.post(url=self._endpoint, headers=headers, json=request_data)
         
@@ -136,6 +138,8 @@ class CustomZaiAIClient(AIClient):
             "messages": messages_dicts,
             "stream": True  # Enable streaming
         }
+
+        print("Getting streaming response:")
 
         # - Execute post request to AI API (use `requests`)
         async with aiohttp.ClientSession() as session:
