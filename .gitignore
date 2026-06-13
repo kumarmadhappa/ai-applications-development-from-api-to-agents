@@ -1,2 +1,4 @@
 .vscode/settings.json
 **/__pycache__/**
+t4_rag_fundamentals/microwave_faiss_index/index.faiss
+t4_rag_fundamentals/microwave_faiss_index/index.pkl
